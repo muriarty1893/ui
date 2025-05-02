@@ -24,6 +24,36 @@
             text-align: center;
         }
 
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .emblem {
+            width: 80px;
+            height: 80px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .emblem img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+
+        .header-text {
+            text-align: left;
+        }
+
         nav {
             background-color: #34495e;
             padding: 1rem;
@@ -128,8 +158,15 @@
 </head>
 <body>
     <header>
-        <h1>[Device Name]</h1>
-        <p>Contact Us</p>
+        <div class="header-content">
+            <div class="emblem">
+                <img src="emblem-placeholder.png" alt="[Device Name] Emblem">
+            </div>
+            <div class="header-text">
+                <h1>[Device Name]</h1>
+                <p>Contact Us</p>
+            </div>
+        </div>
     </header>
 
     <nav>
