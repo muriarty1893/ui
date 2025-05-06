@@ -1,6 +1,6 @@
-# Scientific Device Website
+# SkySim Pro - Professional Flight Simulation Website
 
-A professional website template for showcasing and selling scientific measurement devices. This responsive website is built using HTML5 and CSS, featuring a clean and modern design suitable for scientific equipment manufacturers.
+A professional website template for showcasing and selling advanced flight simulation systems. This responsive website is built using HTML5 and CSS, featuring a clean and modern design suitable for aviation training equipment manufacturers.
 
 ## Features
 
@@ -14,22 +14,22 @@ A professional website template for showcasing and selling scientific measuremen
 ## Pages
 
 1. **Home Page (index.html)**
-   - Hero section with device showcase
+   - Hero section with simulator showcase
    - Key features overview
    - Company information
    - Call-to-action section
 
 2. **Features Page (features.html)**
-   - Detailed device features
-   - Application areas
+   - Detailed flight simulation features
+   - Training applications
    - Advantages and benefits
    - Visual demonstrations
 
 3. **Technical Specifications Page (technical-specifications.html)**
-   - General specifications
-   - Performance metrics
-   - Connection interfaces
-   - Technical requirements
+   - Hardware specifications
+   - Visual system details
+   - Flight model and controls
+   - Software and integration
 
 4. **Contact Page (contact.html)**
    - Contact form
@@ -39,17 +39,14 @@ A professional website template for showcasing and selling scientific measuremen
 
 ## Customization
 
-To customize the website for your specific device:
+To customize the website for your specific flight simulation system:
 
-1. Replace all `[Device Name]` placeholders with your actual device name
-2. Replace `[Company Name]` with your company name
-3. Add your product images:
-   - Main device image
-   - Feature demonstration images
-   - Technical specification images
-4. Update the technical specifications with your device's actual data
-5. Add your company's contact information
-6. Customize the content to match your specific device and company
+1. Replace all placeholder images with your actual simulator images
+2. Update the technical specifications with your system's actual data
+3. Add your company's contact information
+4. Customize the content to match your specific training solutions
+5. Update the features list to reflect your unique offerings
+6. Modify the color scheme to match your brand identity
 
 ## File Structure
 
@@ -86,4 +83,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For any questions or support, please contact [Your Contact Information] 
+For any questions or support, please contact:
+- Email: info@skysimpro.com
+- Phone: +90 212 123 4567
+- Address: SkySim Pro Headquarters, 123 Aviation Way, Istanbul, Turkey 

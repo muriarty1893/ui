@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkySim Pro - Features</title>
+    <title>SkySim Pro - Flight Simulator</title>
     <style>
         :root {
             --primary: #00f7ff;
@@ -16,7 +16,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: system-ui, sans-serif;
+            font-family: 'Segoe UI', system-ui, sans-serif;
         }
 
         body {
@@ -62,12 +62,7 @@
             font-size: 1.5rem;
             color: var(--primary);
             text-transform: uppercase;
-        }
-
-        .logo-text p {
-            font-size: 0.8rem;
-            color: var(--accent);
-            opacity: 0.8;
+            letter-spacing: 2px;
         }
 
         nav ul {
@@ -79,7 +74,10 @@
         nav a {
             color: var(--light);
             text-decoration: none;
+            font-size: 0.9rem;
             text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 0.5rem 1rem;
             transition: color 0.3s;
         }
 
@@ -91,7 +89,7 @@
             margin-top: 100px;
         }
 
-        .feature-section {
+        .simulator-section {
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(100, 255, 218, 0.1);
             border-radius: 20px;
@@ -99,43 +97,44 @@
             margin-bottom: 3rem;
         }
 
-        .feature-section h2 {
+        .simulator-section h2 {
             color: var(--primary);
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
         }
 
-        .feature-section p {
-            color: var(--light);
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-            opacity: 0.9;
-        }
-
-        .feature-section ul {
-            list-style: none;
-            margin: 2rem 0;
-        }
-
-        .feature-section li {
-            margin-bottom: 1rem;
-            padding-left: 2rem;
-            position: relative;
-        }
-
-        .feature-section li::before {
-            content: '→';
-            position: absolute;
-            left: 0;
-            color: var(--primary);
-        }
-
-        .feature-image {
+        .simulator-image {
             width: 100%;
             max-width: 800px;
             margin: 2rem auto;
             display: block;
             border-radius: 12px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(100, 255, 218, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .feature h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         footer {
@@ -145,18 +144,9 @@
             border-top: 1px solid rgba(100, 255, 218, 0.1);
         }
 
-        footer p {
-            color: var(--light);
-            opacity: 0.7;
-        }
-
         @media (max-width: 768px) {
-            .feature-section {
+            .simulator-section {
                 padding: 2rem;
-            }
-
-            .feature-section h2 {
-                font-size: 2rem;
             }
 
             nav ul {
@@ -172,7 +162,7 @@
                 <img src="logoyeni-removebg-preview.png" alt="SkySim Pro Logo">
                 <div class="logo-text">
                     <h1>SkySim Pro</h1>
-                    <p>Professional Flight Simulation Features</p>
+                    <p>Flight Simulator</p>
                 </div>
             </div>
             <nav>
@@ -189,47 +179,26 @@
     </header>
 
     <div class="container">
-        <section class="feature-section">
-            <h2>Main Features</h2>
-            <p>SkySim Pro offers a comprehensive suite of features designed for professional flight training:</p>
-            <ul>
-                <li>Advanced Flight Dynamics Engine with realistic aircraft behavior</li>
-                <li>High-fidelity cockpit with authentic controls and instrumentation</li>
-                <li>Multiple aircraft types and configurations</li>
-                <li>Real-time weather simulation and dynamic conditions</li>
-                <li>Global terrain database with detailed airports and navigation aids</li>
-                <li>Multi-monitor support for enhanced visual experience</li>
-            </ul>
-            <img src="front_panel.jpg" alt="SkySim Pro Cockpit" class="feature-image">
+        <section class="simulator-section">
+            <h2>Experience the Future of Flight Simulation</h2>
+            <p>Step into our state-of-the-art flight simulator and experience the most realistic flight training available today.</p>
+            <img src="outer_system_showcase.jpg" alt="SkySim Pro Flight Simulator" class="simulator-image">
         </section>
 
-        <section class="feature-section">
-            <h2>Applications</h2>
-            <p>SkySim Pro is designed for various professional applications:</p>
-            <ul>
-                <li>Flight schools and pilot training centers</li>
-                <li>Military flight training programs</li>
-                <li>Airline pilot training and certification</li>
-                <li>Private pilot training and currency maintenance</li>
-                <li>Research and development in aviation</li>
-                <li>Emergency procedure training</li>
-            </ul>
-            <img src="outer_system_showcase.jpg" alt="SkySim Pro Training Environment" class="feature-image">
-        </section>
-
-        <section class="feature-section">
-            <h2>Advantages</h2>
-            <p>Why choose SkySim Pro for your flight training needs:</p>
-            <ul>
-                <li>Cost-effective training solution compared to actual flight hours</li>
-                <li>Safe environment for practicing emergency procedures</li>
-                <li>Customizable training scenarios and missions</li>
-                <li>Detailed performance tracking and debriefing tools</li>
-                <li>Regular software updates and new aircraft additions</li>
-                <li>24/7 technical support and training assistance</li>
-            </ul>
-            <img src="lower_panel.jpg" alt="SkySim Pro Control Panel" class="feature-image">
-        </section>
+        <div class="features">
+            <div class="feature">
+                <h3>Realistic Flight Experience</h3>
+                <p>Advanced physics and immersive visuals for true-to-life simulation.</p>
+            </div>
+            <div class="feature">
+                <h3>Professional Cockpit</h3>
+                <p>Authentic controls and displays for pilot-grade training.</p>
+            </div>
+            <div class="feature">
+                <h3>Scenario Training</h3>
+                <p>Customizable missions and weather for every skill level.</p>
+            </div>
+        </div>
     </div>
 
     <footer>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkySim Pro - Features</title>
+    <title>SkySim Pro - About</title>
     <style>
         :root {
             --primary: #00f7ff;
@@ -91,7 +91,7 @@
             margin-top: 100px;
         }
 
-        .feature-section {
+        .about-section {
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(100, 255, 218, 0.1);
             border-radius: 20px;
@@ -99,43 +99,56 @@
             margin-bottom: 3rem;
         }
 
-        .feature-section h2 {
+        .about-section h2 {
             color: var(--primary);
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
         }
 
-        .feature-section p {
-            color: var(--light);
+        .about-section p {
             font-size: 1.1rem;
             margin-bottom: 2rem;
-            opacity: 0.9;
         }
 
-        .feature-section ul {
-            list-style: none;
-            margin: 2rem 0;
+        .team-grid, .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
         }
 
-        .feature-section li {
-            margin-bottom: 1rem;
-            padding-left: 2rem;
-            position: relative;
-        }
-
-        .feature-section li::before {
-            content: '→';
-            position: absolute;
-            left: 0;
-            color: var(--primary);
-        }
-
-        .feature-image {
-            width: 100%;
-            max-width: 800px;
-            margin: 2rem auto;
-            display: block;
+        .team-member, .value-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(100, 255, 218, 0.1);
             border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .team-member:hover, .value-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+            border: 2px solid var(--primary);
+        }
+
+        .team-member h3, .value-card h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .team-member p, .value-card p {
+            color: var(--light);
+            opacity: 0.8;
+            margin-bottom: 1rem;
         }
 
         footer {
@@ -145,17 +158,12 @@
             border-top: 1px solid rgba(100, 255, 218, 0.1);
         }
 
-        footer p {
-            color: var(--light);
-            opacity: 0.7;
-        }
-
         @media (max-width: 768px) {
-            .feature-section {
+            .about-section {
                 padding: 2rem;
             }
 
-            .feature-section h2 {
+            .about-section h2 {
                 font-size: 2rem;
             }
 
@@ -172,7 +180,7 @@
                 <img src="logoyeni-removebg-preview.png" alt="SkySim Pro Logo">
                 <div class="logo-text">
                     <h1>SkySim Pro</h1>
-                    <p>Professional Flight Simulation Features</p>
+                    <p>About Us</p>
                 </div>
             </div>
             <nav>
@@ -189,46 +197,56 @@
     </header>
 
     <div class="container">
-        <section class="feature-section">
-            <h2>Main Features</h2>
-            <p>SkySim Pro offers a comprehensive suite of features designed for professional flight training:</p>
-            <ul>
-                <li>Advanced Flight Dynamics Engine with realistic aircraft behavior</li>
-                <li>High-fidelity cockpit with authentic controls and instrumentation</li>
-                <li>Multiple aircraft types and configurations</li>
-                <li>Real-time weather simulation and dynamic conditions</li>
-                <li>Global terrain database with detailed airports and navigation aids</li>
-                <li>Multi-monitor support for enhanced visual experience</li>
-            </ul>
-            <img src="front_panel.jpg" alt="SkySim Pro Cockpit" class="feature-image">
+        <section class="about-section">
+            <h2>Our Story</h2>
+            <p>SkySim Pro was founded with a vision to revolutionize flight training through cutting-edge simulation technology. Our journey began in 2010 when a team of aviation enthusiasts and technology experts came together to create the most advanced flight simulation system available.</p>
+            <p>Today, we are proud to be at the forefront of flight simulation technology, serving flight schools, military organizations, and commercial airlines worldwide. Our commitment to excellence and innovation continues to drive us forward.</p>
         </section>
 
-        <section class="feature-section">
-            <h2>Applications</h2>
-            <p>SkySim Pro is designed for various professional applications:</p>
-            <ul>
-                <li>Flight schools and pilot training centers</li>
-                <li>Military flight training programs</li>
-                <li>Airline pilot training and certification</li>
-                <li>Private pilot training and currency maintenance</li>
-                <li>Research and development in aviation</li>
-                <li>Emergency procedure training</li>
-            </ul>
-            <img src="outer_system_showcase.jpg" alt="SkySim Pro Training Environment" class="feature-image">
+        <section class="about-section">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="team1.jpg" alt="Team Member">
+                    <h3>John Smith</h3>
+                    <p>Founder & CEO</p>
+                    <p>Former Air Force pilot with 20 years of experience in aviation technology.</p>
+                </div>
+                <div class="team-member">
+                    <img src="team2.jpg" alt="Team Member">
+                    <h3>Sarah Johnson</h3>
+                    <p>Chief Technology Officer</p>
+                    <p>PhD in Aerospace Engineering with expertise in flight dynamics.</p>
+                </div>
+                <div class="team-member">
+                    <img src="team3.jpg" alt="Team Member">
+                    <h3>Michael Chen</h3>
+                    <p>Head of Software Development</p>
+                    <p>15 years of experience in simulation software development.</p>
+                </div>
+            </div>
         </section>
 
-        <section class="feature-section">
-            <h2>Advantages</h2>
-            <p>Why choose SkySim Pro for your flight training needs:</p>
-            <ul>
-                <li>Cost-effective training solution compared to actual flight hours</li>
-                <li>Safe environment for practicing emergency procedures</li>
-                <li>Customizable training scenarios and missions</li>
-                <li>Detailed performance tracking and debriefing tools</li>
-                <li>Regular software updates and new aircraft additions</li>
-                <li>24/7 technical support and training assistance</li>
-            </ul>
-            <img src="lower_panel.jpg" alt="SkySim Pro Control Panel" class="feature-image">
+        <section class="about-section">
+            <h2>Our Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <h3>Innovation</h3>
+                    <p>Constantly pushing the boundaries of what's possible in flight simulation technology.</p>
+                </div>
+                <div class="value-card">
+                    <h3>Excellence</h3>
+                    <p>Committed to delivering the highest quality products and services to our clients.</p>
+                </div>
+                <div class="value-card">
+                    <h3>Safety</h3>
+                    <p>Ensuring the highest standards of safety in all our training solutions.</p>
+                </div>
+                <div class="value-card">
+                    <h3>Customer Focus</h3>
+                    <p>Dedicated to understanding and meeting our clients' unique training needs.</p>
+                </div>
+            </div>
         </section>
     </div>
 
