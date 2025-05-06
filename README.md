@@ -56,15 +56,6 @@ The website consists of five main pages:
 - Dark: #0a192f (Navy)
 - Light: #e6f1ff (Light Blue)
 
-### File Structure
-```
-├── index.html                    # Home page
-├── about.html                    # About page
-├── features.html                 # Features page
-├── technical-specifications.html # Technical specifications
-├── contact.html                  # Contact page
-└── README.md                     # Documentation
-```
 
 ### Browser Compatibility
 - Chrome (latest)
@@ -89,10 +80,10 @@ Our dedicated team of professionals includes:
 
 ## Contact Information
 
-- **Address:** SkySim Pro Headquarters, 123 Aviation Way, Istanbul, Turkey
-- **Phone:** +90 212 123 4567
-- **Email:** info@skysimpro.com
-- **Support:** support@skysimpro.com
+- **Address:** SkySim Pro Headquarters, 123 Aviation Way, Adana, Türkiye
+- **Phone:** +90 111 111 11 11 
+- **Email:** fake@skysimpro.com
+- **Support:** fake@skysimpro.com
 
 ## License
 
@@ -100,4 +91,4 @@ This project is licensed under the MIT License.
 
 ## Support
 
-For technical support or inquiries about our flight simulation systems, please contact our support team at support@skysimpro.com or call +90 212 123 4567. 
+For technical support or inquiries about our flight simulation systems, please contact our support team at fake@skysimpro.com or call +90 111 111 11 11. 
