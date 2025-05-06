@@ -1,89 +1,103 @@
 # SkySim Pro - Professional Flight Simulation Website
 
-A professional website template for showcasing and selling advanced flight simulation systems. This responsive website is built using HTML5 and CSS, featuring a clean and modern design suitable for aviation training equipment manufacturers.
+A modern, responsive website for SkySim Pro's advanced flight simulation systems. Built with HTML5 and CSS, this website showcases our cutting-edge flight simulation technology and professional training solutions.
 
-## Features
+## Overview
 
-- Responsive design that works on all devices
-- Professional color scheme and typography
-- Clean and modern user interface
-- Easy to customize and maintain
-- SEO-friendly structure
-- Fast loading times
+SkySim Pro is a leading provider of professional flight simulation systems, offering state-of-the-art training solutions for flight schools, military organizations, and commercial airlines. Our website presents our products and services with a sleek, modern interface that emphasizes our commitment to excellence in aviation training.
 
-## Pages
+## Website Structure
 
-1. **Home Page (index.html)**
-   - Hero section with simulator showcase
-   - Key features overview
-   - Company information
-   - Call-to-action section
+The website consists of five main pages:
 
-2. **Features Page (features.html)**
-   - Detailed flight simulation features
+1. **Home (index.html)**
+   - Engaging hero section with simulator showcase
+   - Key features and benefits
+   - Company overview
+   - Call-to-action sections
+
+2. **About (about.html)**
+   - Company story and mission
+   - Team profiles
+   - Core values
+   - Company achievements
+
+3. **Features (features.html)**
+   - Comprehensive feature list
    - Training applications
-   - Advantages and benefits
+   - System advantages
    - Visual demonstrations
 
-3. **Technical Specifications Page (technical-specifications.html)**
-   - Hardware specifications
-   - Visual system details
-   - Flight model and controls
-   - Software and integration
+4. **Technical Specifications (technical-specifications.html)**
+   - Detailed hardware specifications
+   - Visual system capabilities
+   - Flight model details
+   - Software integration features
 
-4. **Contact Page (contact.html)**
+5. **Contact (contact.html)**
    - Contact form
-   - Company information
-   - Location details
+   - Company location
    - Support information
+   - Direct communication channels
 
-## Customization
+## Design Features
 
-To customize the website for your specific flight simulation system:
+- Modern, responsive design
+- Professional color scheme with primary color: #00f7ff
+- Clean typography and layout
+- Optimized for all devices
+- Fast loading performance
+- SEO-friendly structure
 
-1. Replace all placeholder images with your actual simulator images
-2. Update the technical specifications with your system's actual data
-3. Add your company's contact information
-4. Customize the content to match your specific training solutions
-5. Update the features list to reflect your unique offerings
-6. Modify the color scheme to match your brand identity
+## Technical Details
 
-## File Structure
+### Color Scheme
+- Primary: #00f7ff (Cyan)
+- Dark: #0a192f (Navy)
+- Light: #e6f1ff (Light Blue)
 
+### File Structure
 ```
-├── index.html              # Main landing page
-├── features.html           # Detailed features page
-├── technical-specifications.html  # Technical specifications page
-├── contact.html            # Contact information page
-└── README.md               # Project documentation
+├── index.html                    # Home page
+├── about.html                    # About page
+├── features.html                 # Features page
+├── technical-specifications.html # Technical specifications
+├── contact.html                  # Contact page
+└── README.md                     # Documentation
 ```
 
-## Browser Support
-
+### Browser Compatibility
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 - Opera (latest)
 
+## Team
+
+Our dedicated team of professionals includes:
+- Ceylin Bulut (Founder & CEO)
+- Murat Eker (Chief Technology Officer)
+- Emin Kaya (Head of Software Development)
+
 ## Getting Started
 
-1. Clone or download this repository
+1. Clone the repository
 2. Open `index.html` in your web browser
-3. Customize the content as needed
-4. Deploy to your web server
+3. Navigate through the pages to explore the content
+4. Customize as needed for your specific requirements
 
-## Contributing
+## Contact Information
 
-Feel free to submit issues and enhancement requests.
+- **Address:** SkySim Pro Headquarters, 123 Aviation Way, Istanbul, Turkey
+- **Phone:** +90 212 123 4567
+- **Email:** info@skysimpro.com
+- **Support:** support@skysimpro.com
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
-## Contact
+## Support
 
-For any questions or support, please contact:
-- Email: info@skysimpro.com
-- Phone: +90 212 123 4567
-- Address: SkySim Pro Headquarters, 123 Aviation Way, Istanbul, Turkey 
+For technical support or inquiries about our flight simulation systems, please contact our support team at support@skysimpro.com or call +90 212 123 4567. 
